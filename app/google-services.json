@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "388643751785",
+    "project_id": "msn-max",
+    "storage_bucket": "msn-max.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388643751785:android:92b20dc00ead7c14f89ff8",
+        "android_client_info": {
+          "package_name": "com.zerotwotalkingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388643751785-poudju8dlmleeqtck4s9u7ur9iljfvsi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAep5AzusO5wUycLcK9EzqlCT6fY0fTEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388643751785-poudju8dlmleeqtck4s9u7ur9iljfvsi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+
+    <item
+        android:id="@+id/rcId"
+        android:icon="@drawable/conversation_icon"
+        android:title="Random Conversation">
+    </item>
+
+    <item
+        android:id="@+id/smcId"
+        android:icon="@drawable/sm_conversation_icon"
+        android:title="Self Made Conversation">
+
+
+    </item>
+
+    <item
+        android:id="@+id/vcId"
+        android:icon="@drawable/voice_command_icon"
+        android:title="Voice Command">
+
+
+    </item>
+
+    <item
+        android:id="@+id/contributeMenuId"
+        android:icon="@drawable/contribute_icon"
+        android:title="Cotribute To Us">
+
+
+    </item>
+
+    <item
+        android:id="@+id/rateMenuId"
+        android:icon="@drawable/rate_icon"
+        android:title="Rate Us"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/contactMenuId"
+        android:icon="@drawable/contact_icon"
+        android:title="Contact Us"
+        >
+
+    </item>
+
+
+
+</menu>

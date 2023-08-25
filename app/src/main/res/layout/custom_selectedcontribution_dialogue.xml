@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_color"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="#EAFFFC"
+        android:foreground="?android:attr/selectableItemBackground"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="Question :"
+                />
+
+            <TextView
+                android:id="@+id/questionId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginStart="8dp"
+                android:textStyle="bold"
+                android:textColor="#5C5858"
+                android:text="what are you doing :" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:text="Answer :"
+                />
+
+            <TextView
+                android:id="@+id/answerId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="#5C5858"
+                android:text="talking to you babe :"
+                android:layout_marginStart="8dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <TextView
+            android:layout_marginRight="8dp"
+            android:padding="6dp"
+            android:elevation="30dp"
+            android:id="@+id/addButtonId"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Add"
+            android:textSize="12sp"
+            android:textColor="#08E665"
+            android:background="@drawable/button_green_s"/>
+
+        <TextView
+            android:layout_marginRight="8dp"
+            android:padding="6dp"
+            android:id="@+id/cancel_buttonId"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Cancel"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_style_1"/>
+
+        <TextView
+            android:padding="6dp"
+            android:elevation="30dp"
+            android:id="@+id/deleteButtonId"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Delete"
+            android:textSize="12sp"
+            android:textColor="#EA3609"
+            android:background="@drawable/button_red_s"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

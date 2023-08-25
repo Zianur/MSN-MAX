@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MSN Max</string>
+
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string-array name="your_language">
+        <!--        <item>Click to Select Your Language</item>-->
+        <item>English</item>
+        <item>Germany</item>
+        <item>Bengali</item>
+    </string-array>
+
+    <string-array name="translator_language">
+        <!--        <item>Click to Select Translator Language</item>-->
+        <item>Do not translate</item>
+        <item>English</item>
+        <item>Germany</item>
+        <item>Bengali</item>
+    </string-array>
+
+    <string-array name="mode">
+        <!--        <item>Click to Select MODE</item>-->
+        <item>Continuous</item>
+        <item>Single</item>
+    </string-array>
+
+    <string name="command">
+        1 Open Camera \n2 Open Email \n3 Open YouTube \n4 Open Facebook \n5 Open Music Player \n6 Open Dial Pad
+        <!--        1 Open Camera \n 2 Open Email 1 Open Camera \n 2 Open Email-->
+    </string>
+
+    <string name="search">
+
+        To search something use the \n"SEARCH"\n keyword before the context you want to search \n
+        For example if you want to \nsearch "MSN MAX"\n then you need to say, \n"SEARCH MSN MAX"\n .
+
+    </string>
+
+
+</resources>

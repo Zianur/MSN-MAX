@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_color"
+    tools:context=".ContributionSMC">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <EditText
+                android:id="@+id/conversationNameId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Conversation Name"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColorHint="@color/black"
+                android:inputType="textMultiLine"
+                >
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+
+            android:id="@+id/textid"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:text="Add to Your Conversation"
+            android:textColor="#F0000000"
+            android:background="@color/white"
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                    android:id="@+id/questionId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Question"
+                    android:textSize="15sp"
+                    android:textColorHint="@color/black"
+                    android:inputType="textMultiLine"
+                    >
+                </EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                    android:id="@+id/answerId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Answer"
+                    android:textSize="15sp"
+                    android:textColorHint="@color/black"
+                    android:inputType="textMultiLine">
+                </EditText>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:id="@+id/submitContributionId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                app:cardBackgroundColor="#39148E"
+                android:elevation="30dp"
+                app:cardCornerRadius="30dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Submit"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textAlignment="center"
+                        android:padding="8dp"
+                        android:textColor="@color/white"
+                        >
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/doneButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Done"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:background="@drawable/button_style_2"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/deleteButtonId"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Conversation"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:textColor="@color/white"
+            android:background="#C30505" />
+
+    </LinearLayout>
+
+</ScrollView>

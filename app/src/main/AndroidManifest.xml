@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zerotwotalkingapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ZeroTwoTalkingApp">
+        <activity android:name=".ForgotPasswordActivity"></activity>
+        <activity android:name=".ResearchActivity" />
+        <activity android:name=".ContributionSMC" />
+        <activity android:name=".SMCList" />
+        <activity android:name=".SelfMadeConversation" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".LogIn" />
+        <activity android:name=".Contribution" />
+        <activity android:name=".RandomConversation" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

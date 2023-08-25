@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:elevation="60dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="#E8E6E6"
+        android:foreground="?android:attr/selectableItemBackground"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+            <TextView
+                android:id="@+id/questionUCLId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#586FF1"
+                android:text="what are you doing :" />
+
+
+            <LinearLayout
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/pronounceButtonUCLId"
+                    android:padding="5dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/speakbutton"
+                    android:src="@drawable/pronounce_icon_white"
+                    ></ImageView>
+
+
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/translateButtonUCLId"
+                    android:padding="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/speakbutton"
+                    android:src="@drawable/translate_icon_white"
+                    ></ImageView>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/smcId"
+        android:title="Self Made Conversation">
+        <!--        android:icon="@drawable/trollface">-->
+
+    </item>
+
+    <item
+        android:id="@+id/vcId"
+        android:title="Voice Command">
+
+    </item>
+
+
+</menu>
